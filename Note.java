@@ -2,20 +2,26 @@ public class Note {
 
     private Book book;
     private String notes;
-    public Note(Book book, String notes){}
+    public Note(Book book, String notes){
+        this.book = book;
+        this.notes = notes;
+    }
 
     public Book getBook(){
-        //put basic parameters in to avoid the error message
-        //fix later
-        return book = new Book(0, "author", "good book",Genre.fiction);
+        return book;
     }
 
-    public void setBook(Book book){}
+    public void setBook(Book book){
+        this.book = book;
+    }
 
     public String getNotes(){
-        return "";
+
+        return notes;
     }
 
-    public void setNotes(String notes){}
+    public void setNotes(String notes){
+        this.notes = notes;
+    }
 
 }
