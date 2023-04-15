@@ -10,45 +10,55 @@ public class Book {
     private int id;
     public double rating;
 
-    public Book(int id, String author, String description, Genre genre){}
+    public Book(String title, int id, String author, String description, Genre genre){
+        this.title = title;
+        this.id = id;
+        this.author = author;
+        this.description = description;
+        this.genre = genre;
+    }
 
     public String getTitle(){
-        return "";
+        return title;
     }
 
-    public void setTitle(String title){}
+    public void setTitle(String title){
+        this.title = title;
+    }
 
     public String getAuthor(){
-        return "";
+        return author;
     }
 
-    public void setAuthor(String author){}
+    public void setAuthor(String author){this.author = author;}
 
     public String getDescription(){
-        return "";
+        return description;
     }
 
-    public void setDescription(String description){}
+    public void setDescription(String description){this.description = description;}
 
     public Genre getGenre(){
-        return Genre.fiction;
+        return genre;
     }
 
-    public void setGenre(Genre genre){}
+    public void setGenre(Genre genre){this.genre = genre;}
 
-    public void addNote(Note note){}
+    public void addNote(Note note){
+
+    }
 
     public ArrayList<Note> getNotes(){
         return new ArrayList<>();
     }
 
     public String getId(){
-        return "";
+        return id;
     }
 
     public double getRating(){
-        return 0;
+        return rating;
     }
 
-    public void setRating(double rating){}
+    public void setRating(double rating){this.rating = rating;}
 }
