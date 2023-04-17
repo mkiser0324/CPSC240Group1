@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8297402b-5620-4ed2-ad7e-5052d31597a9" name="Changes" comment="Start of classes: Book, Note, and Genre (enum)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserDatabase.java" afterDir="false" />
+    <list default="true" id="8297402b-5620-4ed2-ad7e-5052d31597a9" name="Changes" comment="Filling out methods">
+      <change beforePath="$PROJECT_DIR$/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681586554332</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Filling out methods">
+      <created>1681768351851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681768351851</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
