@@ -30,19 +30,25 @@ public class Book {
         return author;
     }
 
-    public void setAuthor(String author){this.author = author;}
+    public void setAuthor(String author){
+        this.author = author;
+    }
 
     public String getDescription(){
         return description;
     }
 
-    public void setDescription(String description){this.description = description;}
+    public void setDescription(String description){
+        this.description = description;
+    }
 
     public Genre getGenre(){
         return genre;
     }
 
-    public void setGenre(Genre genre){this.genre = genre;}
+    public void setGenre(Genre genre){
+        this.genre = genre;
+    }
 
     public void addNote(Note note){
 
@@ -60,5 +66,7 @@ public class Book {
         return rating;
     }
 
-    public void setRating(double rating){this.rating = rating;}
+    public void setRating(double rating){
+        this.rating = rating;
+    }
 }

@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8297402b-5620-4ed2-ad7e-5052d31597a9" name="Changes" comment="Filling out methods">
-      <change afterPath="$PROJECT_DIR$/User.java" afterDir="false" />
+    <list default="true" id="8297402b-5620-4ed2-ad7e-5052d31597a9" name="Changes" comment="Start of classes: Book, Note, and Genre (enum)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/BookList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserDatabase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
