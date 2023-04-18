@@ -1,3 +1,5 @@
+
+
 import java.util.HashMap;
 
 public class UserDatabase{
@@ -8,8 +10,8 @@ public class UserDatabase{
         return true;
     }
 
-    public User getUser(String username){
-        return;
+    public String getUser(String username){
+      return username;
     }
 
     public boolean login(String username, String password){

@@ -1,8 +1,10 @@
+
+
 public class Note {
 
     private Book book;
     private String notes;
-    public Note(Book book, String notes){
+    public Note(){
         this.book = book;
         this.notes = notes;
     }
@@ -11,9 +13,6 @@ public class Note {
         return book;
     }
 
-    public void setBook(Book book){
-        this.book = book;
-    }
 
     public String getNotes(){
 
@@ -21,6 +20,7 @@ public class Note {
     }
 
     public void setNotes(String notes){
+
         this.notes = notes;
     }
 

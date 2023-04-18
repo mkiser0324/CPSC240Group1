@@ -1,8 +1,10 @@
+package src;
+
 import java.util.HashMap;
 
 public class RatingDatabase{
 
-    private HashMap<int, Bookrating> bookRating = new HashMap<int, Bookrating>();
+    private HashMap<int, BookRate> bookRating = new HashMap<int, Bookrating>();
 
     public RatingDatabase(){};
 
