@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7797b1b-0a71-45a8-98a8-79dd7bd6081a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MainGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CPSC240Group1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CPSC240Group1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8297402b-5620-4ed2-ad7e-5052d31597a9" name="Changes" comment="Filling out methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BookRate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RatingDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/MainGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +24,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -96,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681768351851</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Filling out methods">
+      <created>1681769010398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681769010398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Filling out methods">
+      <created>1681769048120</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681769048120</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
