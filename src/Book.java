@@ -10,7 +10,7 @@ public class Book {
     private int year;
     private Genre genre;
     private ArrayList<Note> list;
-    public ArrayList<Integer> rating;
+    public double rating;
 
     public Book( int id,Genre genre, String title, String author,  int year){
         this.id = id;
@@ -18,7 +18,7 @@ public class Book {
         this.author = author;
         this.year = year;
         this.genre = genre;
-        this.rating = new ArrayList<>();
+        this.rating = rating;
         this.list = new ArrayList<>();
     }
 
@@ -27,10 +27,11 @@ public class Book {
         this.author = author;
         this.year = year;
         this.list = new ArrayList<Note>();
-        this.rating = new ArrayList<>();
+        this.rating =rating;
     }
 
     public int getId() {
+
         return id;
     }
 
@@ -77,23 +78,17 @@ public class Book {
     }
 
     public ArrayList<Note> getNotes(){
+
         return this.list;
     }
 
-
-    public void addRating(int rating) {
-        this.rating.add(rating);
+    public void setRating(double rating) {
+        this.rating = rating;
     }
 
-    public double getAverageRating() {
-        if (this.rating.isEmpty()) {
-            return 0.0;
-        }
-        int sum = 0;
-        for (int rating : this.rating) {
-            sum += rating;
-        }
-        return (double) sum / this.rating.size();
+    public double getRating() {
+        return rating;
     }
+
 
 }
