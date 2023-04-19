@@ -4,14 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8297402b-5620-4ed2-ad7e-5052d31597a9" name="Changes" comment="Fill out BookRate methods" />
+    <list default="true" id="03855030-5156-43d5-b6d8-500dd649beaf" name="Changes" comment="changes">
+      <change afterPath="$PROJECT_DIR$/src/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RegistrationPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserDatabase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ed37fc63-43ea-4ce3-afc2-a741dd920626" />
+        <option name="url" value="https://github.com/mkiser0324/CPSC240Group1" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -24,12 +50,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Public/cpsc 240/CPSC240Group1",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Public\cpsc 240\CPSC240Group1\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,35 +110,56 @@
       <option name="project" value="LOCAL" />
       <updated>1681586554332</updated>
     </task>
-    <task id="LOCAL-00006" summary="Create user and user methods">
-      <created>1681587424207</created>
+    <task id="LOCAL-00006" summary="Filling out methods">
+      <created>1681768351851</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1681587424207</updated>
+      <updated>1681768351851</updated>
     </task>
-    <task id="LOCAL-00007" summary="Create remaining empty files">
-      <created>1681587540971</created>
+    <task id="LOCAL-00007" summary="Filling out methods">
+      <created>1681769010398</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1681587540971</updated>
+      <updated>1681769010398</updated>
     </task>
-    <task id="LOCAL-00008" summary="Create remaining empty files">
-      <created>1681588313939</created>
+    <task id="LOCAL-00008" summary="Filling out methods">
+      <created>1681769048120</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1681588313939</updated>
+      <updated>1681769048120</updated>
     </task>
-    <task id="LOCAL-00009" summary="Fill out BookRate methods">
-      <created>1681588368262</created>
+    <task id="LOCAL-00009" summary="added the book file">
+      <created>1681832206083</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1681588368262</updated>
+      <updated>1681832206083</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update of booklist">
+      <created>1681843356133</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681843356133</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <created>1681843577262</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681843577262</updated>
+    </task>
+    <task id="LOCAL-00012" summary="changes">
+      <created>1681922938103</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681922938103</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,11 +174,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add Finn" />
     <MESSAGE value="Filling out methods" />
-    <MESSAGE value="Create user and user methods" />
-    <MESSAGE value="Create remaining empty files" />
-    <MESSAGE value="Fill out BookRate methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fill out BookRate methods" />
+    <MESSAGE value="added the book file" />
+    <MESSAGE value="update of booklist" />
+    <MESSAGE value="update" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
 </project>
