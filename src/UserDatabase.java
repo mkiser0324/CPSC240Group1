@@ -30,4 +30,11 @@ public class UserDatabase {
         }
         return usersByUsername.get(username);
     }
+
+    public boolean containsUser(String username) {
+        if (!usersByUsername.containsKey(username)) {
+            return false;
+        }
+        return true;
+    }
 }
