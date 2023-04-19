@@ -1,14 +1,18 @@
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.util.Random;
 public class BookList{
     private static BookList instance;
-    private ArrayList<Book> bookList;
+    private ArrayList<Book> books;
+    private HashMap<Book, BookRate> ratings;
 
     private BookList() {
-        bookList = new ArrayList<Book>();
+        books = new ArrayList<>();
+        ratings = new HashMap<>();
         readBooksFromFile();
     }
 
@@ -21,46 +25,52 @@ public class BookList{
 
 
     public ArrayList<Book> getBookList() {
-        return bookList;
+        return books;
     }
 
     public void addBook(Book book) {
-        bookList.add(book);
+        books.add(book);
     }
 
     public void removeBook(Book book) {
-        bookList.remove(book);
+        books.remove(book);
     }
 
-    public Book getBookById(int id) {
-        for (Book book : bookList) {
-            if (book.getId() == id) {
-                return book;
-            }
-        }
-        return null;
-    }
+
     private void readBooksFromFile() {
         try {
             File file = new File("books.txt");
             Scanner scanner = new Scanner(file);
-
-            int id = 1;
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 String[] parts = line.split(",");
-                String title = parts[0];
-                String author = parts[1];
-                int year = Integer.parseInt(parts[2]);
+                int id = Integer.parseInt(parts[0]);
+                String title = parts[1];
+                String author = parts[2];
+                int year = Integer.parseInt(parts[3]);
 
                 Book book = new Book(id,title,author,year);
                 addBook(book);
-                id++;
+
+
             }
 
             scanner.close();
+            System.out.println("Books read from file successfully!");
         } catch (FileNotFoundException e) {
-            System.out.println("Error: books.txt not found.");
+            System.out.println("Error: File not found!");
+        } catch (Exception e) {
+            System.out.println("Error reading from file!");
+            e.printStackTrace();
+        }
+    }
+    public HashMap<Book, BookRate> getRatings() {
+        return ratings;
+    }
+
+    public void rateBook(Book book, User user, double rating) {
+        if (ratings.containsKey(book)) {
+            ratings.get(book).addRating(user, rating);
         }
     }
 }

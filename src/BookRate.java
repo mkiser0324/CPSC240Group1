@@ -1,30 +1,17 @@
+import java.util.HashMap;
 
+public class BookRate {
+    private HashMap<User, Double> ratings;
 
-public class BookRate{
-    private Book book;
-    private User user;
-    private int rating;
-    public BookRate(Book book, User user, int rating){
-        this.book = book;
-        this.user = user;
-        this.rating = rating;
+    public BookRate() {
+        this.ratings = new HashMap<>();
     }
 
-    public User getUser() {
-        return user;
+    public void addRating(User user, double rating) {
+        ratings.put(user, rating);
     }
 
-    public Book getBook() {
-        return book;
+    public HashMap<User, Double> getRatings() {
+        return ratings;
     }
-
-    public int getRating() {
-        return rating;
-    }
-
-    public void setRating(int rating) {
-        this.rating = rating;
-    }
-
-
 }
