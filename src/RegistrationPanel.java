@@ -94,7 +94,6 @@ public class RegistrationPanel extends JPanel {
         });
     }
 
-    public void setRegistrationButtonListener(MainGUI.RegistrationButtonListener registrationButtonListener) {
-    }
+
 }
 

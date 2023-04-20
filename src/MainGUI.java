@@ -71,8 +71,8 @@ public class MainGUI extends JFrame {
 
         // set frame properties
        // setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400, 300);
-        setLocationRelativeTo(null);
-        setVisible(true);
+        frame.setSize(400, 300);
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
     }
 }
