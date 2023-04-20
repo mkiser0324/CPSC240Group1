@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+//Book rating system
 public class BookRate {
     private HashMap<User, Double> ratings;
 
