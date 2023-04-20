@@ -18,8 +18,8 @@ public class MainGUI extends JFrame {
 
         // initialize user database
         userDatabase = new UserDatabase();
-        User newuser = ("johndoe","password", "John", "Doe");
-        userDatabase.addUser(newuser);
+        String newuser;
+        userDatabase.addUser("johndoe","password", "John", "Doe");
 
         // initialize book list
         bookList = BookList.getInstance();
