@@ -80,6 +80,5 @@ public class LoginPanel extends JPanel implements ActionListener {
         }
     }
 
-    public void setLoginButtonListener(MainGUI.LoginButtonListener loginButtonListener) {
-    }
+
 }
