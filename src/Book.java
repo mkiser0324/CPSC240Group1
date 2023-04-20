@@ -9,6 +9,7 @@ public class Book {
     private int year;
     private ArrayList<Note> notes;
     private double rating;
+    private Genre genre;
 
     public Book(int id, String title, String author, int year) {
         this.id = id;
@@ -17,7 +18,9 @@ public class Book {
         this.year = year;
         this.rating = Math.random() * 5;
         this.notes = new ArrayList<>();
+        this.genre = genre;
     }
+
 
     public int getId() {
         return id;
@@ -42,7 +45,13 @@ public class Book {
     public void setRating(double rating) {
         this.rating = rating;
     }
+public Genre getGenre(){
+        return genre;
+}
 
+public void setGenre(Genre genre) {
+        this.genre = genre;
+}
     public ArrayList<Note> getNotes() {
         return notes;
     }

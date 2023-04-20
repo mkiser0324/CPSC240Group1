@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class UserDatabase {
-    private HashMap<String, User> usersByUsername;
+    private static HashMap<String, User> usersByUsername;
 
     public UserDatabase() {
         this.usersByUsername = new HashMap<>();
@@ -16,15 +16,19 @@ public class UserDatabase {
         return true;
     }
 
-    public boolean verifyUser(String username, String password) {
-        if (!usersByUsername.containsKey(username)) {
-            return false;
-        }
+    public static boolean verifyUser(String username, String password) {
         User user = usersByUsername.get(username);
-        return user.getPassword().equals(password);
+        if (!usersByUsername.containsKey(username)) {
+            //user not found
+            return false;
+        } else {
+            //check if password matches
+            return user.getPassword().equals(password);
     }
 
-    public User getUserByUsername(String username) {
+}
+
+    public static User getUserByUsername(String username) {
         if (!usersByUsername.containsKey(username)) {
             return null;
         }

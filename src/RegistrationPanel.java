@@ -12,7 +12,7 @@ public class RegistrationPanel extends JPanel {
 
     private UserDatabase userDatabase;
 
-    public RegistrationPanel(UserDatabase userDatabase) {
+    public RegistrationPanel() {
         this.userDatabase = userDatabase;
 
         // Initialize components
@@ -92,6 +92,9 @@ public class RegistrationPanel extends JPanel {
                 }
             }
         });
+    }
+
+    public void setRegistrationButtonListener(MainGUI.RegistrationButtonListener registrationButtonListener) {
     }
 }
 
