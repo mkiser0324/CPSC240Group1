@@ -1,30 +1,34 @@
 import java.util.HashMap;
 
 public class UserDatabase {
-    private HashMap<String, User> usersByUsername;
+    private static HashMap<String, User> usersByUsername;
 
     public UserDatabase() {
         this.usersByUsername = new HashMap<>();
     }
 
-    public boolean addUser(String username, String password, String firstName, String lastName) {
+    public void addUser(String username, String password, String firstName, String lastName) {
         if (usersByUsername.containsKey(username)) {
-            return false;
+            System.out.println("Nice");
         }
         User user = new User(username, password, firstName, lastName);
         usersByUsername.put(username, user);
-        return true;
+        System.out.println("Availble");
     }
 
-    public boolean verifyUser(String username, String password) {
-        if (!usersByUsername.containsKey(username)) {
-            return false;
-        }
+    public static boolean verifyUser(String username, String password) {
         User user = usersByUsername.get(username);
-        return user.getPassword().equals(password);
+        if (!usersByUsername.containsKey(username)) {
+            //user not found
+            return false;
+        } else {
+            //check if password matches
+            return user.getPassword().equals(password);
     }
 
-    public User getUserByUsername(String username) {
+}
+
+    public static User getUserByUsername(String username) {
         if (!usersByUsername.containsKey(username)) {
             return null;
         }

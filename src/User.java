@@ -8,9 +8,6 @@ public class User {
 
     public User(String username, String password, String firstname, String lastname) {
 
-    }
-
-    {
         this.username = username;
         this.password = password;
         this.firstname = firstname;
@@ -47,5 +44,16 @@ public class User {
 
     public void setLastname(String lastname) {
         this.lastname = lastname;
+    }
+
+    public boolean checkPassword(String password) {
+        User user = UserDatabase.getUserByUsername(username);
+        if (user.getPassword().equals(password)) {
+            // User not found
+            return true;
+        } else {
+            // Check if password matches
+            return false;
+        }
     }
 }

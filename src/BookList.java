@@ -10,7 +10,7 @@ public class BookList{
     private ArrayList<Book> books;
     private HashMap<Book, BookRate> ratings;
 
-    private BookList() {
+    public BookList() {
         books = new ArrayList<>();
         ratings = new HashMap<>();
         readBooksFromFile();
@@ -49,6 +49,7 @@ public class BookList{
                 String author = parts[2];
                 int year = Integer.parseInt(parts[3]);
 
+
                 Book book = new Book(id,title,author,year);
                 addBook(book);
 
@@ -73,4 +74,7 @@ public class BookList{
             ratings.get(book).addRating(user, rating);
         }
     }
+
+
+
 }

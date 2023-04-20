@@ -3,7 +3,7 @@ import javax.swing.*;
 public class Registration {
     public static void main(String[] args) {
         UserDatabase userDatabase = new UserDatabase();
-        RegistrationPanel registrationPanel = new RegistrationPanel(userDatabase);
+        RegistrationPanel registrationPanel = new RegistrationPanel();
 
         JFrame frame = new JFrame("Registration");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
