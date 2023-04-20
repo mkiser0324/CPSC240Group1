@@ -7,13 +7,13 @@ public class UserDatabase {
         this.usersByUsername = new HashMap<>();
     }
 
-    public boolean addUser(String username, String password, String firstName, String lastName) {
+    public void addUser(String username, String password, String firstName, String lastName) {
         if (usersByUsername.containsKey(username)) {
-            return false;
+            System.out.println("Nice");
         }
         User user = new User(username, password, firstName, lastName);
         usersByUsername.put(username, user);
-        return true;
+        System.out.println("Availble");
     }
 
     public static boolean verifyUser(String username, String password) {
