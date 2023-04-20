@@ -7,12 +7,12 @@ public class UserDatabase {
         this.usersByUsername = new HashMap<>();
     }
 
-    public void addUser(String username, String password, String firstName, String lastName) {
-        if (usersByUsername.containsKey(username)) {
+    public void addUser(User user) {
+        if (usersByUsername.containsKey(user.getUsername())) {
             System.out.println("Nice");
         }
-        User user = new User(username, password, firstName, lastName);
-        usersByUsername.put(username, user);
+        //User user = new User(username, password, firstName, lastName);
+        usersByUsername.put(user.getUsername(), user);
         System.out.println("Availble");
     }
 

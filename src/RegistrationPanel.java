@@ -79,8 +79,8 @@ public class RegistrationPanel extends JPanel {
                     errorMessageLabel.setText("Username already taken.");
                 } else {
                     // Create new user and add to database
-                    //User newUser = new User(username, password, firstName, lastName);
-                    userDatabase.addUser(username, password, firstName, lastName);
+                    User newUser = new User(username, password, firstName, lastName);
+                    userDatabase.addUser(newUser);
                     // Clear input fields and error message
                     usernameField.setText("");
                     passwordField.setText("");

@@ -71,7 +71,7 @@ public class LoginPanel extends JPanel implements ActionListener {
             }
 
             if (!user.checkPassword(password)) {
-                JOptionPane.showMessageDialog(this, "Invalid username or password");
+                JOptionPane.showMessageDialog(this, " wrong password");
                 return;
             }
 
