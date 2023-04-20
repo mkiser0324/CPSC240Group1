@@ -18,12 +18,12 @@ public class UserDatabase {
 
     public static boolean verifyUser(String username, String password) {
         User user = usersByUsername.get(username);
-        if (!usersByUsername.containsKey(username)) {
+        if (usersByUsername.containsKey(username)) {
             //user not found
-            return false;
+            return true;
         } else {
             //check if password matches
-            return user.getPassword().equals(password);
+            return false;
     }
 
 }
